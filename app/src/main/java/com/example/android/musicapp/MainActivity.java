@@ -38,16 +38,15 @@ public class MainActivity extends AppCompatActivity {
 
     //TODO: Plan for creation
     /*
-    I would implement a "pull to refresh" to update newest song that is available in the database
+    The app will connect to a server using Socket, the server will reply with data containing list of new songs released
 
-    I need to establish a socket connection to connect to a webserver for new data
+    The data will then be given to the user using ListView with adapter
 
-    I would also need to dynamically create new XML layout, so that up to 5 new songs can be displayed
-    and display less in case there is less new song introduced during the week
+    Users will be able to click the song, and playback using MediaPlayer API
 
-    I would also implement a Bottom Bar navigation instead of the three top buttons
+    I would implement a "pull to refresh" to update newest song that is available in the database using SwipeRefreshLayout
 
-    I will also add an intent to go to Amazon Music / Google Music / other music store so user can buy the song
+    I would also implement the toolbar using TabLayout navigation instead of the three top buttons
      */
 }
 

@@ -36,12 +36,18 @@ public class PopularActivity extends AppCompatActivity {
 
     //TODO: Plan for creation
     /*
-    I would need to add map API in here, to locate the user GPS coordinate and get their city
+    I would need to add the Geocoder and GPSTracker to get the user's coordinate and get the cityname from it
+    Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+    List<Address> addresses = geocoder.getFromLocation(MyLat, MyLong, 1);
+    String cityName = addresses.get(0).getAddressLine(0);
 
-    I will also add a pull to update, and it will update according to what's popular in the city
+    Then the app will connect to a server using a Socket, query the server with the cityName
+    The server will return with data containing list of popular music for the city
 
-    And like the MainActivity, I need a socket to connect to a database, and the ability to dynamically create XML layout
+    The list will then be given to the user using ListView with adapter
 
-    I will also add an intent to go to Amazon Music / Google Music / other music store so user can buy the song
+    When the user click on one of the song, it will play the media using MediaPlayer API
+
+    I will also add a pull to update like in the main activity
      */
 }

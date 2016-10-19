@@ -34,8 +34,8 @@ public class SearchActivity extends AppCompatActivity {
 
     //TODO: Plan for creation
     /*
-    I will need to implement a socket connection to a database, and let the server do the searching
-
-    I will also need to create XML layout dynamically to display the data
+    I will send the user input to a server via Socket connection, then the server will process and find the song
+    the server will then send data back with high probability of matching songs
+    the songs will then be displayed using ListView with adapter
      */
 }
