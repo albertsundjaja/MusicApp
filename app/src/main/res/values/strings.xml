@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_home_sub">What\'s New?</string>
+    <string name="title_popular">Popular</string>
+    <string name="title_popular_sub">What\'s Popular?</string>
+    <string name="title_search">Search</string>
+    <string name="text_button1">Home</string>
+    <string name="text_button2">Popular</string>
+    <string name="text_button3">Search</string>
+    <string name="search_song">Search a song</string>
+</resources>
